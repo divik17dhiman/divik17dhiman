@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Divik Dhiman</h1>
-<h3 align="center">A passionate web developer from India</h3>
+<h3 align="left">A passionate web developer from India</h3>
 
 - 🔭 I’m currently working on **Login page**
 
