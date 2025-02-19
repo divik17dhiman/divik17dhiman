@@ -1,9 +1,7 @@
 <h1 align="center">Hi 👋, I'm Divik Dhiman</h1>
 <h3 align="left">A passionate web developer from India</h3>
 
-- 🔭 I’m currently working on **Login page**
-
-- 🌱 I’m currently learning **react, mongodb, nodejs**
+- 🌱 I’m currently learning **nextjs, expressjs, AI and ML**
 
 - 👨‍💻 All of my projects are available at [https://github.com/divik17dhiman](https://github.com/divik17dhiman)
 
