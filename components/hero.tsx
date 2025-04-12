@@ -23,7 +23,7 @@ export default function Hero() {
               Web Developer
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Hi 👋, I&apos;m <span className="text-primary">Divik Dhiman</span>
+              Hi ,I&apos;m <span className="text-primary">Divik Dhiman</span>
             </h1>
             <h2 className="text-xl md:text-2xl mb-6 text-muted-foreground">A passionate web developer from India</h2>
             <p className="text-lg mb-8 max-w-lg">
