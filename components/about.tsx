@@ -21,7 +21,7 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Who I Am</h2>
           <p className="text-lg text-muted-foreground">
             I&apos;m a web developer passionate about creating innovative solutions. Currently focused on expanding my
-            skills in Next.js, Express.js, AI and ML.
+            skills in Data Learning, Machine Learning, AI Integration.
           </p>
         </motion.div>
 

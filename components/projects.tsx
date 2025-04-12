@@ -9,27 +9,19 @@ import Link from "next/link"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with user authentication, product catalog, and payment integration.",
+    title: "Access-Bridgee",
+    description: "AccessBridge is a web-based tool that analyzes websites for accessibility issues and provides actionable insights to ensure compliance with WCAG standards.",
     image: "/placeholder.svg?height=300&width=500",
     tags: ["React", "Node.js", "MongoDB", "Express"],
-    github: "https://github.com/divik17dhiman",
-    demo: "#",
+    github: "https://github.com/divik17dhiman/AccessBridge",
+    demo: "https://access-bridge.vercel.app/",
   },
   {
-    title: "Task Management App",
-    description: "A productivity application for managing tasks, projects, and deadlines with real-time updates.",
+    title: "Network-Analyzer",
+    description: "Network Analyzer is a web-based tool that provides real-time analysis of network attacks, helping users identify and troubleshoot network issues.",
     image: "/placeholder.svg?height=300&width=500",
     tags: ["React", "Firebase", "Tailwind CSS"],
-    github: "https://github.com/divik17dhiman",
-    demo: "#",
-  },
-  {
-    title: "Weather Dashboard",
-    description: "A weather application that provides real-time weather data and forecasts for locations worldwide.",
-    image: "/placeholder.svg?height=300&width=500",
-    tags: ["JavaScript", "Weather API", "CSS"],
-    github: "https://github.com/divik17dhiman",
+    github: "https://github.com/divik17dhiman/Network-Detection",
     demo: "#",
   },
 ]

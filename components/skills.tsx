@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 
 const skills = [
+  { name: "Next.js", category: "full-stack" },
   { name: "JavaScript", category: "language" },
   { name: "React", category: "frontend" },
   { name: "Node.js", category: "backend" },
@@ -15,7 +16,6 @@ const skills = [
   { name: "Git", category: "tool" },
   { name: "Django", category: "backend" },
   { name: "Android", category: "mobile" },
-  { name: "Unreal Engine", category: "game" },
 ]
 
 export default function Skills() {
@@ -67,10 +67,10 @@ export default function Skills() {
         >
           <h3 className="text-xl font-semibold mb-4">Currently Learning</h3>
           <div className="flex flex-wrap justify-center gap-3">
-            <Badge className="px-3 py-1 text-sm bg-primary/90 hover:bg-primary">Next.js</Badge>
-            <Badge className="px-3 py-1 text-sm bg-primary/90 hover:bg-primary">Express.js</Badge>
-            <Badge className="px-3 py-1 text-sm bg-primary/90 hover:bg-primary">Artificial Intelligence</Badge>
-            <Badge className="px-3 py-1 text-sm bg-primary/90 hover:bg-primary">Machine Learning</Badge>
+            <Badge className="px-3 py-1 text-sm bg-primary/90 hover:bg-primary">Advanced ML</Badge>
+            <Badge className="px-3 py-1 text-sm bg-primary/90 hover:bg-primary">Data Learning</Badge>
+            <Badge className="px-3 py-1 text-sm bg-primary/90 hover:bg-primary">System Design</Badge>
+            <Badge className="px-3 py-1 text-sm bg-primary/90 hover:bg-primary">AI Integration</Badge>
           </div>
         </motion.div>
       </div>
