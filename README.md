@@ -77,8 +77,3 @@
 
 ---
 
-### 📈 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=divik17dhiman&show_icons=true&theme=tokyonight" alt="Divik's GitHub stats"/>
-</p>
