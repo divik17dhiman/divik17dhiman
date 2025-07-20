@@ -1,79 +1,81 @@
-<h1 align="center">Hi 👋, I'm Divik Dhiman</h1>
-<h3 align="center">🚀 Passionate Full-Stack Developer | AI/ML Enthusiast | Tech Explorer from India 🇮🇳</h3>
+# 👋 Hi there, I'm Divik! 
+
+🚀 Aspiring Full-Stack Developer | 🛡️ Cybersecurity Enthusiast | 🤖 ML & AI Explorer | 💡 Tech Lead @ Hack Club
 
 ---
 
-### 🔍 About Me
+## 👨‍💻 About Me
 
-- 🧠 Skilled in: **Next.js, Express.js, Node.js, Machine Learning, R Programming**
-- 🌱 Currently exploring: **Advanced ML, Data Analysis with R, and System Design**
-- 👨‍💻 All of my work is available at: [github.com/divik17dhiman](https://github.com/divik17dhiman)
-- 📫 Reach me at: **divik17dhiman@gmail.com**
-- 💬 Ask me about **Web Development, OS Concepts, ML Basics, and Algorithms**
+I'm a passionate developer currently pursuing B.Tech in Computer Science. I love building impactful web applications, contributing to open-source, and exploring systems programming, cybersecurity, and AI. My focus lies in blending strong fundamentals with practical tools to solve real-world problems — from accessibility tools and quiz platforms to network security projects.
 
 ---
 
-### ⚡ Featured Projects
+## 🧰 Tech Stack & Tools
 
-- 🔗 **AccessBridge – Digital Accessibility Checker**  
-  A Next.js web app that checks websites for accessibility issues to promote digital inclusivity.  
-  ➤ [GitHub Repo](https://github.com/divik17dhiman/website-accessibility-tester-main)
+**Languages:**  
+![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c) 
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python) 
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript)  
+![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r)  
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql)
 
-- 🧠 **Quiz Platform Web App**  
-  A feature-rich platform where teachers can create quizzes and share keys with students. Built using **Next.js**, **Node.js (Express)**, and **PostgreSQL**.  
-  ➤ [GitHub Repo](https://github.com/divik17dhiman/quiz-platform)
+**Frontend:**  
+![Next.js](https://img.shields.io/badge/-Next.js-000?style=flat-square&logo=nextdotjs)  
+![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwindcss)
 
-- 🧮 **ML Projects & AI Experiments**  
-  A collection of my hands-on projects in **Machine Learning** and **AI**, using Python and Scikit-learn.  
-  ➤ [GitHub Repo](https://github.com/divik17dhiman/ML-Projects)
+**Backend & DB:**  
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js)  
+![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express)  
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql)
 
-- 📁 **FAT File System in C**  
-  A simulation of a FAT-based file system with hash tables, file creation, and cluster management.  
-  ➤ [GitHub Repo](https://github.com/divik17dhiman/fat-file-system)
-
-- 🛡️ **Network Security Tool**  
-  Detects network attacks like ARP/DNS spoofing, MAC flooding, and DDoS on Windows using WSL.  
-  ➤ [GitHub Repo](https://github.com/divik17dhiman/network-security-tool)
-
----
-
-### 🤝 Connect with Me
-
-<p align="left">
-  <a href="https://linkedin.com/in/divik dhiman" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="linkedin" height="30" width="40" />
-  </a>
-  <a href="https://www.hackerrank.com/divik17dhiman" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/hackerrank.svg" alt="hackerrank" height="30" width="40" />
-  </a>
-  <a href="https://www.leetcode.com/divik17dhiman" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/leetcode.svg" alt="leetcode" height="30" width="40" />
-  </a>
-</p>
+**Other:**  
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git)  
+![WSL](https://img.shields.io/badge/-WSL-4078c0?style=flat-square&logo=linux)  
+![OpenMP](https://img.shields.io/badge/-OpenMP-blue?style=flat-square)  
+![Latex](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex)  
 
 ---
 
-### 🛠️ Languages & Tools
+## 📌 Projects I'm Proud Of
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="expressjs" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="r" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="c++" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-</p>
+### 🔐 **Network Security Toolkit**
+- ✅ ARP Spoofing, DNS Spoofing, Port Scan & MAC Flooding Detection
+- 🛠️ Built on Windows with WSL and `scapy`, `dsniff`, and other tools
+- 🖥️ Includes a GUI and CLI-based interaction system
+
+### 🧠 **Quiz Platform Web App**
+- 🎯 Role-based: Teachers upload quizzes; students join via secure key
+- 🎨 Feature-rich UI (leaderboards, instant results, progress indicators)
+- 📦 Tech Stack: Next.js + Express.js + PostgreSQL
+
+### ♿ **AccessBridge – Digital Accessibility Checker**
+- 🌐 Checks webpages for accessibility standards violations
+- 🧠 Built for SDG Goal: Reduced Inequalities
+- 🎨 Beautiful, informative UI with dynamic feedback
+
+### 📁 **FAT-Based Filesystem in C**
+- 🧮 Includes free cluster list, FAT table, and hash table directory lookup
+- 🧪 Features: Format, Create, Read, Write files
+
+### 🧬 **Green Signal Processing (OpenMP)**
+- 🚦 Parallel implementation of real-time green signal detection algorithms
+- 📊 Performance analysis with experimental benchmarks
+
+### 🧾 **CPU Scheduling Simulator**
+- 🖨️ Xerox use-case simulator with Preemptive SJF & Non-preemptive FCFS
+- 🧵 Includes process scheduler & thread management features
 
 ---
+
+## 🌱 Let's Connect!
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/divik)
+- 🐦 [Twitter](https://twitter.com/divik_x)  
+- 🧠 [Hack Club Contributions](https://github.com/hackclub)  
+- 📫 Email: `youremail@example.com` (replace with yours)
+
+---
+
+_✨ “Building isn't about being perfect. It's about solving what matters.” ✨_
 
