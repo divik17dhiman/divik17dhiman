@@ -15,7 +15,7 @@
 
 ---
 
-### 🔍 About Me
+## 👨‍💻 About Me
 
 I am a software developer focused on building reliable web systems and low-level software. I bridge modern full-stack development with systems-level understanding, prioritizing correctness, performance, and clear architecture over unnecessary complexity.
 
@@ -72,7 +72,7 @@ I am a software developer focused on building reliable web systems and low-level
 
 ---
 
-### ⚡ Featured Projects
+## 🧰 Tech Stack & Tools
 
 - **LLM Hallucination Analysis / RAG Evaluation System**  
   Designed a controlled evaluation pipeline comparing direct prompting vs RAG across 500+ queries. Implemented dense, BM25, and hybrid retrieval strategies. Achieved 27% reduction in hallucination rate. *(Python, RAG, FAISS/Chroma, BM25, LLM APIs)*
