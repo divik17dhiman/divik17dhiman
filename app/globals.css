@@ -4,64 +4,78 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 162.5 77.9% 40.2%;
-    --primary-foreground: 355.7 100% 97.3%;
-    --secondary: 180 20% 95%;
-    --secondary-foreground: 162.5 77.9% 30.2%;
-    --muted: 180 5% 96%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 162.5 77.9% 94%;
-    --accent-foreground: 162.5 77.9% 30.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 162.5 77.9% 40.2%;
-    --radius: 0.75rem;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 162.5 77.9% 40.2%;
-    --primary-foreground: 355.7 100% 97.3%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 162.5 77.9% 40.2%;
+    --background: 0 0% 2%; /* #050505 */
+    --foreground: 210 20% 90%; /* text-gray-300 */
+    --card: 0 0% 4%;
+    --card-foreground: 210 20% 90%;
+    --popover: 0 0% 4%;
+    --popover-foreground: 210 20% 90%;
+    --primary: 186 100% 50%; /* #00E5FF Electric Cyan */
+    --primary-foreground: 0 0% 0%;
+    --secondary: 215 28% 17%; /* gray-800 */
+    --secondary-foreground: 210 20% 90%;
+    --muted: 215 28% 17%;
+    --muted-foreground: 215 14% 65%; /* gray-400 */
+    --accent: 186 100% 50%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 20% 90%;
+    --border: 215 28% 17%; /* gray-800 */
+    --input: 215 28% 17%;
+    --ring: 186 100% 50%;
+    --radius: 0rem;
   }
 }
 
 @layer base {
   * {
     @apply border-border;
+    border-radius: 0 !important;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  
+  /* Cartesian Grid Background */
+  .bg-system-grid {
+    background-size: 32px 32px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-position: center top;
+  }
+
+  /* Custom Scrollbar for System UI feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+    border-left: 1px solid hsl(var(--border));
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted));
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary));
+  }
+  
+  ::selection {
+    background-color: hsl(var(--primary) / 0.3);
+    color: hsl(var(--primary));
   }
 }
 
 .section-padding {
-  @apply py-16 md:py-24;
+  @apply py-24 md:py-32;
 }
 
 .container {
-  @apply px-4 mx-auto max-w-7xl;
+  @apply px-6 mx-auto max-w-7xl;
+}
+@keyframes terminal-blink {
+  50% {
+    opacity: 0;
+  }
 }

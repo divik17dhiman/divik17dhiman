@@ -1,82 +1,78 @@
-"use client"
-
-import { Button } from "@/components/ui/button"
-import { ArrowDown, Github, Linkedin } from "lucide-react"
+import { ArrowRight, Github, FileText, Terminal } from "lucide-react"
 import Link from "next/link"
-import { motion } from "framer-motion"
 
 export default function Hero() {
   return (
-    <section
-      id="home"
-      className="relative min-h-screen flex items-center pt-16 md:pt-20 bg-gradient-to-b from-accent to-background"
-    >
-      <div className="container">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="relative z-10"
-          >
-            <div className="inline-block px-4 py-1 mb-6 rounded-full bg-primary/10 text-primary font-medium">
-              Web Developer
-            </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Hi ,I&apos;m <span className="text-primary">Divik Dhiman</span>
-            </h1>
-            <h2 className="text-xl md:text-2xl mb-6 text-muted-foreground">A passionate web developer from India</h2>
-            <p className="text-lg mb-8 max-w-lg">
-              I create modern web applications with cutting-edge technologies. Currently exploring Next.js, Express.js,
-              AI and ML.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Button asChild size="lg" className="rounded-full">
-                <Link href="#projects">View My Work</Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="rounded-full">
-                <Link href="#contact">Contact Me</Link>
-              </Button>
-            </div>
-            <div className="flex gap-4 mt-8">
-              <Button variant="outline" size="icon" asChild className="rounded-full">
-                <Link href="https://github.com/divik17dhiman" target="_blank" rel="noopener noreferrer">
-                  <Github className="h-5 w-5" />
-                  <span className="sr-only">GitHub</span>
-                </Link>
-              </Button>
-              <Button variant="outline" size="icon" asChild className="rounded-full">
-                <Link href="https://linkedin.com/in/divik-dhiman" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5" />
-                  <span className="sr-only">LinkedIn</span>
-                </Link>
-              </Button>
-            </div>
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="hidden lg:block"
-          >
-            <div className="relative w-full aspect-square max-w-md mx-auto">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-full"></div>
-              <div className="absolute inset-0 border-2 border-primary/20 rounded-full"></div>
-              <img
-                src="/placeholder.svg?height=400&width=400"
-                alt="Hero illustration"
-                className="w-full h-full object-cover rounded-full"
-              />
-            </div>
-          </motion.div>
+    <section className="grid grid-cols-1 md:grid-cols-12 gap-4">
+      {/* System Identifier Panel */}
+      <div className="md:col-span-3 flex flex-col justify-between border border-border bg-card/50 p-4">
+        <div className="space-y-1">
+          <span className="font-mono text-[13px] text-primary uppercase tracking-widest block">
+            [MOD.01] // IDENTITY
+          </span>
+          <h2 className="font-display text-xl font-bold text-foreground uppercase tracking-wider">
+            OPERATOR_PROFILE
+          </h2>
         </div>
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 hidden md:block">
-          <Button variant="ghost" size="icon" asChild className="animate-bounce rounded-full">
-            <Link href="#about">
-              <ArrowDown className="h-6 w-6" />
-              <span className="sr-only">Scroll Down</span>
-            </Link>
-          </Button>
+        
+        <div className="hidden md:flex flex-col gap-2 mt-auto pt-8">
+          <span className="font-mono text-[12px] text-muted-foreground uppercase tracking-widest border-b border-border/50 pb-1 mb-1">
+            UPLINK_NODES
+          </span>
+          <Link href="https://github.com/divik17dhiman" target="_blank" className="text-md font-mono text-foreground hover:text-primary transition-colors flex items-center gap-2">
+            <span className="text-primary">{">"}</span> GITHUB
+          </Link>
+          <Link href="https://drive.google.com/file/d/1Gb-tkDklakbERnCjhoJgEhp2h2Bo7byF/view?usp=sharing" target="_blank" className="text-md font-mono text-foreground hover:text-primary transition-colors flex items-center gap-2">
+            <span className="text-primary">{">"}</span> RESUME
+          </Link>
+        </div>
+      </div>
+
+      {/* Core Telemetry Panel */}
+      <div className="md:col-span-9 border border-border bg-card/50 p-6 md:p-8 flex flex-col justify-center relative overflow-hidden">
+        {/* Decorative corner brackets (CSS only, no images) */}
+        <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-primary/50"></div>
+        <div className="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-primary/50"></div>
+        <div className="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-primary/50"></div>
+        <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-primary/50"></div>
+
+        <div className="space-y-6 relative z-10">
+          <div className="space-y-2">
+            <div className="flex items-center gap-3 font-mono text-xs text-muted-foreground uppercase tracking-widest">
+              <Terminal className="w-4 h-4 text-primary" />
+              <span>SYS.USER:</span>
+            </div>
+            <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tight text-foreground uppercase leading-none">
+              DIVIK<br />DHIMAN
+            </h1>
+          </div>
+          
+          <div className="border-l-2 border-primary/30 pl-4 py-1">
+            <p className="text-md lg:text-base font-sans text-foreground/80 max-w-2xl leading-relaxed">
+              Focused on building reliable web systems and low-level software. I bridge modern full-stack development with systems-level understanding, prioritizing correctness, performance, and clear architecture over unnecessary complexity.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-col gap-1">
+              <span className="font-mono text-[12px] text-muted-foreground uppercase tracking-widest">SYS.STATUS</span>
+              <span className="font-mono text-sm text-primary uppercase tracking-wider flex items-center gap-2">
+                <span className="w-2 h-2 bg-primary rounded-none"></span> ONLINE WHEN YOU NEED
+              </span>
+            </div>
+            <div className="flex flex-col gap-1 border-l border-border/50 pl-4">
+              <span className="font-mono text-[12px] text-muted-foreground uppercase tracking-widest">PRIMARY_DIRECTIVE</span>
+              <span className="font-mono text-sm text-foreground uppercase tracking-wider">
+                SOFTWARE ENGINEER
+              </span>
+            </div>
+            <div className="flex flex-col gap-1 border-l border-border/50 pl-4">
+              <span className="font-mono text-[12px] text-muted-foreground uppercase tracking-widest">LOC</span>
+              <span className="font-mono text-sm text-foreground uppercase tracking-wider">
+                GLOBAL
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
